@@ -1,0 +1,30 @@
+body {
+  font-size: 24px;
+}
+#drum-machine {
+  margin: 15px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.App {
+  display: flex;
+  justify-content:center ;
+  margin-top: 33vh;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.drum-pad {
+  border: 1px solid rgb(9, 180, 154);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
